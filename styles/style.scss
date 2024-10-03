@@ -1,0 +1,16 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* COLORS */
+$grey: #f3f3f3;
+$light-green: #99e2d0;
+$dark-green: #008766;
+$light-blue: #89c8fa;
+$dark-blue: #003a68;
+$purple: #9356dc;
+
+.button {
+  background-color: $purple;
+  border-radius: 25px;
+}
