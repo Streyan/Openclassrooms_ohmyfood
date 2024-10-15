@@ -1,0 +1,59 @@
+.infos {
+  gap: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+.fonctionnement {
+  gap: 26px;
+  padding: 40px 20px 40px 20px;
+}
+
+.steps {
+  gap: 24px;
+}
+
+.step__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 18px;
+  left: -12px;
+  background-color: $purple;
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+}
+
+.restaurants {
+  gap: 26px;
+  padding: 40px 20px 40px 20px;
+}
+
+.restaurants__list {
+  gap: 18px;
+  &--card {
+    border-radius: 15px;
+    max-height: 251px;
+    position: relative;
+    img {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      object-fit: cover;
+      width: 100%;
+      max-height: 174px;
+    }
+  }
+  &--image {
+    height: 75%;
+  }
+  &--content {
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    &--text {
+      gap: 5px;
+    }
+  }
+}

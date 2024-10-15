@@ -1,0 +1,37 @@
+.button {
+  align-content: center;
+  @include linearGradient($pink, $purple);
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  height: 50px;
+  width: 186px;
+}
+
+.button-step {
+  align-items: center;
+  background-color: $grey3;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  gap: 20px;
+  justify-content: flex-start;
+  padding: 20px 20px 20px 25px;
+  position: relative;
+}
+
+.button-new {
+  background-color: $light-green;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  color: $dark-green;
+  height: 29px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 80px;
+  p {
+    font-size: 14px;
+  }
+}

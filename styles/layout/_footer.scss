@@ -1,0 +1,15 @@
+.footer {
+  padding: 22px 25px 22px 25px;
+  gap: 16px;
+  .logo {
+    color: white;
+    height: 27px;
+    width: 139px;
+  }
+  &--list {
+    gap: 7px;
+  }
+  &--link {
+    gap: 10px;
+  }
+}
