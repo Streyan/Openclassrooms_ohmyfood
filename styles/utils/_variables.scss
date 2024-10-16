@@ -7,14 +7,8 @@ $dark-green: #008766;
 $light-blue: #89c8fa;
 $dark-blue: #003a68;
 $purple: #9356dc;
-$light-purple: rgba(147, 86, 220, 0.85);
 $pink: #ff79da;
-$light-pink: rgba(255, 121, 218, 0.85);
 $dark: #353535;
-
-@mixin linearGradient($first, $second) {
-  background: linear-gradient($first, $second);
-}
 
 .background-dark {
   background-color: $dark;
