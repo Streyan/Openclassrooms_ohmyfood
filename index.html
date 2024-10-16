@@ -46,7 +46,7 @@
       <div class="flex-column fonctionnement">
         <div class=""><p class="bold-text">Fonctionnement</p></div>
         <div class="flex-column steps">
-          <div class="flex-row button-step">
+          <div class="flex-row step-card">
             <div class="">
               <div class="step__circle">
                 <p class="text-white">1</p>
@@ -55,14 +55,14 @@
             <i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i>
             <div class=""><p>Choisissez un restaurant</p></div>
           </div>
-          <div class="flex-row button-step">
+          <div class="flex-row step-card">
             <div class="step__circle">
               <p class="text-white">2</p>
             </div>
             <i class="fa-solid fa-list-ul" aria-hidden="true"></i>
             <div class=""><p>Composez votre menu</p></div>
           </div>
-          <div class="flex-row button-step">
+          <div class="flex-row step-card">
             <div class="step__circle">
               <p class="text-white">3</p>
             </div>
@@ -74,23 +74,26 @@
       <div id="restaurants" class="flex-column background-grey restaurants">
         <div class=""><h2 class="bold-text">Restaurants</h2></div>
         <div class="flex-column restaurants__list">
-          <a
-            href="#"
-            class="flex-column background-white restaurants__list--card"
-          >
+          <div class="flex-column background-white restaurants__list--card">
             <div class="flex-column restaurants__list--image">
-              <button class="button-new"><p>Nouveau</p></button>
-              <img
-                src="./assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                class=""
-              />
+              <div class="button-new"><p>Nouveau</p></div>
+              <a href="#">
+                <img
+                  alt="Image d'un plat du restaurant La palette du goût"
+                  src="./assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                  class=""
+              /></a>
             </div>
             <div class="flex-row restaurants__list--content">
               <div class="flex-column restaurants__list--content--text">
-                <div class="">
-                  <h3 class="bold-text">La palette du goût</h3>
-                </div>
-                <div class=""><p class="small-thin-text">Ménilmontant</p></div>
+                <a href="#">
+                  <div class="">
+                    <h3 class="bold-text">La palette du goût</h3>
+                  </div>
+                  <div class="">
+                    <p class="small-thin-text">Ménilmontant</p>
+                  </div>
+                </a>
               </div>
               <div class="heart color">
                 <i
@@ -100,22 +103,25 @@
                 <i class="fa-regular fa-heart" aria-hidden="true"></i>
               </div>
             </div>
-          </a>
-          <a
-            href="#"
-            class="flex-column background-white restaurants__list--card"
-          >
+          </div>
+          <div class="flex-column background-white restaurants__list--card">
             <div class="flex-column restaurants__list--image">
-              <button class="button-new"><p>Nouveau</p></button>
-              <img
-                src="./assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
-                class=""
-              />
+              <div class="button-new"><p>Nouveau</p></div>
+              <a href="#"
+                ><img
+                  alt="Image d'un plat du restaurant La note enchantée"
+                  src="./assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
+                  class=""
+              /></a>
             </div>
             <div class="flex-row restaurants__list--content">
               <div class="flex-column restaurants__list--content--text">
-                <div class=""><h3 class="bold-text">La note enchantée</h3></div>
-                <div class=""><p class="small-thin-text">Charonne</p></div>
+                <a href="#">
+                  <div class="">
+                    <h3 class="bold-text">La note enchantée</h3>
+                  </div>
+                  <div class=""><p class="small-thin-text">Charonne</p></div></a
+                >
               </div>
               <div class="heart color">
                 <i
@@ -125,21 +131,24 @@
                 <i class="fa-regular fa-heart" aria-hidden="true"></i>
               </div>
             </div>
-          </a>
-          <a
-            href="#"
-            class="flex-column background-white restaurants__list--card"
-          >
+          </div>
+          <div class="flex-column background-white restaurants__list--card">
             <div class="flex-column restaurants__list--image">
-              <img
-                src="./assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
-                class=""
-              />
+              <a href="#">
+                <img
+                  alt="Image d'un plat du restaurant À la française"
+                  src="./assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+                  class=""
+              /></a>
             </div>
             <div class="flex-row restaurants__list--content">
               <div class="flex-column restaurants__list--content--text">
-                <div class=""><h3 class="bold-text">À la française</h3></div>
-                <div class=""><p class="small-thin-text">Cité Rouge</p></div>
+                <a href="#">
+                  <div class=""><h3 class="bold-text">À la française</h3></div>
+                  <div class="">
+                    <p class="small-thin-text">Cité Rouge</p>
+                  </div></a
+                >
               </div>
               <div class="heart color">
                 <i
@@ -149,25 +158,26 @@
                 <i class="fa-regular fa-heart" aria-hidden="true"></i>
               </div>
             </div>
-          </a>
-          <a
-            href="#"
-            class="flex-column background-white restaurants__list--card"
-          >
+          </div>
+          <div class="flex-column background-white restaurants__list--card">
             <div class="flex-column restaurants__list--image">
-              <img
-                src="./assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
-                class=""
-              />
+              <a href="#">
+                <img
+                  alt="Image d'un plat du restaurant Le délice des sens"
+                  src="./assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                  class=""
+              /></a>
             </div>
             <div class="flex-row restaurants__list--content">
               <div class="flex-column restaurants__list--content--text">
-                <div class="">
-                  <h3 class="bold-text">Le délice des sens</h3>
-                </div>
-                <div class="">
-                  <p class="small-thin-text">Folie-Méricourt</p>
-                </div>
+                <a href="#">
+                  <div class="">
+                    <h3 class="bold-text">Le délice des sens</h3>
+                  </div>
+                  <div class="">
+                    <p class="small-thin-text">Folie-Méricourt</p>
+                  </div></a
+                >
               </div>
               <div class="heart color">
                 <i
@@ -177,12 +187,16 @@
                 <i class="fa-regular fa-heart" aria-hidden="true"></i>
               </div>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </main>
     <footer class="flex-column background-dark footer text-white">
-      <img src="./assets/images/logo/ohmyfood@2x.svg" class="logo" />
+      <img
+        alt="OhMyFood logo"
+        src="./assets/images/logo/ohmyfood@2x.svg"
+        class="logo"
+      />
       <div class="flex-column footer--list">
         <a href="#" class="flex-row footer--link">
           <i class="fa-solid fa-utensils" aria-hidden="true"></i>

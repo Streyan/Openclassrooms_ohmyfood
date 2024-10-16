@@ -8,7 +8,7 @@
   width: 186px;
 }
 
-.button-step {
+.step-card {
   align-items: center;
   background-color: $grey3;
   border: 0;
@@ -21,6 +21,8 @@
 }
 
 .button-new {
+  align-content: center;
+  text-align: center;
   background-color: $light-green;
   border: 0;
   border-radius: 2px;

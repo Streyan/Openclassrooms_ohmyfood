@@ -129,7 +129,7 @@ p {
   width: 186px;
 }
 
-.button-step {
+.step-card {
   align-items: center;
   background-color: #f6f6f6;
   border: 0;
@@ -142,6 +142,8 @@ p {
 }
 
 .button-new {
+  align-content: center;
+  text-align: center;
   background-color: #99e2d0;
   border: 0;
   border-radius: 2px;
