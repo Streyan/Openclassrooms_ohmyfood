@@ -7,11 +7,39 @@
 
 .fonctionnement {
   gap: 26px;
-  padding: 40px 20px 40px 20px;
+  padding: 40px 20px;
+  @media (min-width: 768px) {
+    padding: 50px 180px;
+  }
 }
 
 .steps {
   gap: 24px;
+  @media (min-width: 1025px) {
+    padding-left: 12px;
+    flex-direction: row;
+    gap: 36px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.step-card {
+  align-items: center;
+  background-color: $grey3;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  gap: 20px;
+  justify-content: flex-start;
+  padding: 20px 20px 20px 25px;
+  position: relative;
+  @media (min-width: 1025px) {
+    min-width: 250px;
+    padding: 25px 20px 25px 35px;
+  }
 }
 
 .step__circle {
@@ -29,7 +57,10 @@
 
 .restaurants {
   gap: 26px;
-  padding: 40px 20px 40px 20px;
+  padding: 40px 20px;
+  @media (min-width: 768px) {
+    padding: 30px 180px;
+  }
 }
 
 .restaurants__list {
@@ -45,6 +76,9 @@
       width: 100%;
       max-height: 174px;
     }
+    @media (min-width: 1025px) {
+      width: 100%;
+    }
   }
   &--image {
     height: 75%;
@@ -56,5 +90,11 @@
     &--text {
       gap: 5px;
     }
+  }
+  @media (min-width: 1025px) {
+    row-gap: 50px;
+    column-gap: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
