@@ -49,6 +49,27 @@
   transform: scale(1);
 }
 
+@keyframes spin-and-disapear {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(715deg);
+  }
+}
+@keyframes appear {
+  0% {
+    transform: translateY(200%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 body,
 h1,
 h2,
@@ -159,6 +180,15 @@ p {
   font-size: 14px;
 }
 
+.placeholder {
+  overflow: hidden;
+}
+
+.content {
+  transform: translateY(150%);
+  animation: appear 3s 1.5s forwards;
+}
+
 .heart {
   position: relative;
 }
@@ -178,7 +208,23 @@ p {
   z-index: 999;
 }
 
+.loader {
+  position: sticky;
+  left: 45%;
+  top: 45%;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  animation: spin-and-disapear 3s forwards;
+  border-top: 10px solid rgba(255, 255, 255, 0);
+  border-bottom: 10px solid #9356dc;
+  border-right: 10px solid #9356dc;
+  border-left: 10px solid #9356dc;
+  border-radius: 50%;
+}
+
 .infos {
+  overflow: hidden;
   gap: 20px;
   padding: 30px;
   text-align: center;

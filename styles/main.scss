@@ -1,5 +1,6 @@
 @import "./utils/variables";
 @import "./base/animations", "./base/reset", "./base/typography";
 @import "./layout/footer", "./layout/header";
-@import "./components/buttons", "./components/hearts";
+@import "./components/buttons", "./components/content", "./components/hearts",
+  "./components/loader";
 @import "./pages/index";

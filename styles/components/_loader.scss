@@ -1,0 +1,14 @@
+.loader {
+  position: sticky;
+  left: 45%;
+  top: 45%;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  animation: spin-and-disapear 3s forwards;
+  border-top: 10px solid rgba($color: white, $alpha: 0);
+  border-bottom: 10px solid $purple;
+  border-right: 10px solid $purple;
+  border-left: 10px solid $purple;
+  border-radius: 50%;
+}
