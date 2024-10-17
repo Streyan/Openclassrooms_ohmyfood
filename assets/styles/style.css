@@ -119,8 +119,21 @@ p {
 .footer--list {
   gap: 7px;
 }
+@media (min-width: 767.98px) {
+  .footer--list {
+    flex-direction: row;
+    gap: 13px;
+  }
+}
 .footer--link {
   gap: 10px;
+}
+@media (min-width: 767.98px) {
+  .footer {
+    padding: 57px 25px 30px;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
 }
 
 .header__logo {
@@ -186,7 +199,7 @@ p {
 
 .content {
   transform: translateY(150%);
-  animation: appear 3s 1.5s forwards;
+  animation: appear 1s 2s forwards;
 }
 
 .heart {
@@ -229,7 +242,7 @@ p {
 
 .infos {
   overflow: hidden;
-  gap: 20px;
+  gap: 18px;
   padding: 30px;
   text-align: center;
 }
