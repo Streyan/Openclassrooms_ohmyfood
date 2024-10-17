@@ -208,11 +208,15 @@ p {
   z-index: 999;
 }
 
-.loader {
+.load {
+  height: 0;
+  width: 0;
   position: sticky;
   left: 45%;
   top: 45%;
-  z-index: 1;
+}
+
+.loader {
   width: 40px;
   height: 40px;
   animation: spin-and-disapear 3s forwards;
