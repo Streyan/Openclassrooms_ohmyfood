@@ -155,7 +155,7 @@ p {
 .header__logo--menu {
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 17px;
-  gap: 42px;
+  gap: 70px;
   z-index: 999;
   align-content: center;
   justify-content: flex-start;
@@ -376,6 +376,10 @@ p {
   }
 }
 
+.main-content {
+  height: 1337px;
+}
+
 .image-restaurant img {
   object-fit: cover;
   width: 100%;
@@ -384,9 +388,10 @@ p {
 
 .menu {
   gap: 40px;
-  padding: 32px 13px 40px 13px;
+  padding: 32px 13px 0px 13px;
   border-top-right-radius: 40px;
   border-top-left-radius: 40px;
+  height: 1070px;
 }
 .menu-position {
   top: -30px;
