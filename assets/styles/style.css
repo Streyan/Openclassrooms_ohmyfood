@@ -146,6 +146,20 @@ p {
   width: 197px;
 }
 
+.header__logo--menu {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 17px;
+  gap: 42px;
+  z-index: 999;
+  align-content: center;
+  justify-content: flex-start;
+  font-size: 30px;
+}
+.header__logo--menu .logo {
+  height: 36px;
+  width: 197px;
+}
+
 .header__searchbar {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   gap: 17px;
@@ -179,6 +193,20 @@ p {
 }
 .button-new p {
   font-size: 14px;
+}
+
+.card {
+  border-radius: 15px;
+  max-height: 251px;
+}
+
+.card-content {
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+.card-content--text {
+  gap: 5px;
 }
 
 .placeholder {
@@ -273,8 +301,8 @@ p {
 }
 @media (min-width: 1025px) {
   .step-card {
-    min-width: 215px;
-    max-width: 350px;
+    min-width: 200px;
+    width: 27%;
   }
 }
 
@@ -339,6 +367,29 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+}
+
+.image-restaurant img {
+  object-fit: cover;
+  width: 100%;
+  height: 275px;
+}
+
+.menu {
+  gap: 40px;
+  padding: 32px 13px 40px 13px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+}
+.menu__list {
+  gap: 40px;
+}
+.menu__list-toto {
+  gap: 12px;
+}
+.menu__list-cards {
+  width: 100%;
+  gap: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */

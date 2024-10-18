@@ -1,0 +1,13 @@
+.card {
+  border-radius: 15px;
+  max-height: 251px;
+}
+
+.card-content {
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  &--text {
+    gap: 5px;
+  }
+}
