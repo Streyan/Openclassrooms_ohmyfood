@@ -4,10 +4,27 @@
 }
 
 .card-content {
+  position: relative;
   align-items: center;
   justify-content: space-between;
   padding: 12px;
   &--text {
     gap: 5px;
+    p {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
   }
+}
+
+.validation {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  top: 0px;
+  right: -59px;
+  height: 100%;
+  width: 59px;
+  background-color: $light-green;
 }

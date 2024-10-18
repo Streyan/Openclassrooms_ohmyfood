@@ -70,6 +70,18 @@
     transform: translateY(0);
   }
 }
+.show-validation .validation,
+.show-validation .menu__card-price {
+  transition: all 300ms ease-out;
+}
+.show-validation:hover .card-content--text {
+  width: 75%;
+}
+.show-validation:hover .validation,
+.show-validation:hover .menu__card-price {
+  transform: translateX(-59px);
+}
+
 body,
 h1,
 h2,
@@ -208,12 +220,29 @@ p {
 }
 
 .card-content {
+  position: relative;
   align-items: center;
   justify-content: space-between;
   padding: 12px;
 }
 .card-content--text {
   gap: 5px;
+}
+.card-content--text p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.validation {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  top: 0px;
+  right: -59px;
+  height: 100%;
+  width: 59px;
+  background-color: #99e2d0;
 }
 
 .placeholder {
@@ -388,7 +417,7 @@ p {
 
 .menu {
   gap: 40px;
-  padding: 32px 13px 0px 13px;
+  padding: 32px 13px 40px 13px;
   border-top-right-radius: 40px;
   border-top-left-radius: 40px;
   height: 1070px;
