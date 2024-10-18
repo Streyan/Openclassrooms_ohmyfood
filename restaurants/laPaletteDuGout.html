@@ -7,6 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css?family=Shrikhand"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
@@ -21,7 +25,7 @@
     </div>
     <header class="flex-column">
       <div class="flex-row center header__logo--menu">
-        <i class="fa-solid fa-arrow-left"></i>
+        <a href="../index.html"><i class="fa-solid fa-arrow-left"></i></a>
         <img
           src="../assets/images/logo/ohmyfood.png"
           alt="OhMyFood logo"
@@ -41,8 +45,8 @@
         </div>
         <div class="placeholder">
           <div class="flex-column background-grey menu content">
-            <div class="flex-row">
-              <h2 class="bold-text">La palette du goût</h2>
+            <div class="flex-row menu-title">
+              <h2 class="shrikhand">La palette du goût</h2>
               <div class="heart color">
                 <i
                   class="fa-solid fa-heart fa-heart-pink"
@@ -54,7 +58,10 @@
             <div class="flex-column menu__list">
               <div class="placeholder">
                 <div class="flex-column menu__list-toto">
-                  ENTREES
+                  <div class="flex-column titre">
+                    <p class="menu__list-toto-titre">Entrées</p>
+                    <div class="soulignage"></div>
+                  </div>
                   <div class="flex-column menu__list-cards">
                     <div
                       class="flex-row background-white card card-content content"
@@ -62,14 +69,20 @@
                       <div class="flex-column card-content--text">
                         <a href="#">
                           <div class="">
-                            <h3 class="bold-text">La palette du goût</h3>
+                            <p class="menu__card-title">
+                              Fricassée d'escargots
+                            </p>
                           </div>
                           <div class="">
-                            <p class="small-thin-text">Ménilmontant</p>
+                            <p class="thin-text menu__card-subtitle">
+                              Au piment d'Espelette
+                            </p>
                           </div>
                         </a>
                       </div>
-                      <div class="prix">PRIX</div>
+                      <div class="prix">
+                        <p class="bold-text menu__card-price">25€</p>
+                      </div>
                     </div>
                     <div
                       class="flex-row background-white card card-content content"
@@ -77,14 +90,20 @@
                       <div class="flex-column card-content--text">
                         <a href="#">
                           <div class="">
-                            <h3 class="bold-text">La palette du goût</h3>
+                            <p class="menu__card-title">
+                              Foie gras de canard mi-cuit
+                            </p>
                           </div>
                           <div class="">
-                            <p class="small-thin-text">Ménilmontant</p>
+                            <p class="thin-text menu__card-subtitle">
+                              Et ses copeaux de truffe noire
+                            </p>
                           </div>
                         </a>
                       </div>
-                      <div class="prix">PRIX</div>
+                      <div class="prix">
+                        <p class="bold-text menu__card-price">35€</p>
+                      </div>
                     </div>
                     <div
                       class="flex-row background-white card card-content content"
@@ -92,122 +111,168 @@
                       <div class="flex-column card-content--text">
                         <a href="#">
                           <div class="">
-                            <h3 class="bold-text">La palette du goût</h3>
+                            <p class="menu__card-title">Œuf au plat</p>
                           </div>
                           <div class="">
-                            <p class="small-thin-text">Ménilmontant</p>
+                            <p class="thin-text menu__card-subtitle">
+                              Assaisonné à la truffe sur lit de caviar
+                            </p>
                           </div>
                         </a>
                       </div>
-                      <div class="prix">PRIX</div>
+                      <div class="prix">
+                        <p class="bold-text menu__card-price">20€</p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="placeholder">
-                <div class="liste entrées">
-                  PLATS
-                  <div
-                    class="flex-row background-white card card-content content"
-                  >
-                    <div class="flex-column card-content--text">
-                      <a href="#">
-                        <div class="">
-                          <h3 class="bold-text">La palette du goût</h3>
-                        </div>
-                        <div class="">
-                          <p class="small-thin-text">Ménilmontant</p>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="prix">PRIX</div>
+                <div class="flex-column menu__list-toto">
+                  <div class="flex-column titre">
+                    <p class="menu__list-toto-titre">Plats</p>
+                    <div class="soulignage"></div>
                   </div>
-                  <div
-                    class="flex-row background-white card card-content content"
-                  >
-                    <div class="flex-column card-content--text">
-                      <a href="#">
-                        <div class="">
-                          <h3 class="bold-text">La palette du goût</h3>
-                        </div>
-                        <div class="">
-                          <p class="small-thin-text">Ménilmontant</p>
-                        </div>
-                      </a>
+                  <div class="flex-column menu__list-cards">
+                    <div
+                      class="flex-row background-white card card-content content"
+                    >
+                      <div class="flex-column card-content--text">
+                        <a href="#">
+                          <div class="">
+                            <p class="menu__card-title">
+                              Filet de bœuf aux herbes
+                            </p>
+                          </div>
+                          <div class="">
+                            <p class="thin-text menu__card-subtitle">
+                              Accompagné de sa ribambelle de légumes
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="prix">
+                        <p class="bold-text menu__card-price">40€</p>
+                      </div>
                     </div>
-                    <div class="prix">PRIX</div>
-                  </div>
-                  <div
-                    class="flex-row background-white card card-content content"
-                  >
-                    <div class="flex-column card-content--text">
-                      <a href="#">
-                        <div class="">
-                          <h3 class="bold-text">La palette du goût</h3>
-                        </div>
-                        <div class="">
-                          <p class="small-thin-text">Ménilmontant</p>
-                        </div>
-                      </a>
+                    <div
+                      class="flex-row background-white card card-content content"
+                    >
+                      <div class="flex-column card-content--text">
+                        <a href="#">
+                          <div class="">
+                            <p class="menu__card-title">
+                              Parmentier de queue de bœuf
+                            </p>
+                          </div>
+                          <div class="">
+                            <p class="thin-text menu__card-subtitle">
+                              À la truffe noire sur sa purée de panais
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="prix">
+                        <p class="bold-text menu__card-price">35€</p>
+                      </div>
                     </div>
-                    <div class="prix">PRIX</div>
+                    <div
+                      class="flex-row background-white card card-content content"
+                    >
+                      <div class="flex-column card-content--text">
+                        <a href="#">
+                          <div class="">
+                            <p class="menu__card-title">Filet de turbot</p>
+                          </div>
+                          <div class="">
+                            <p class="thin-text menu__card-subtitle">
+                              Aux agrumes
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="prix">
+                        <p class="bold-text menu__card-price">44€</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="placeholder">
-                <div class="liste entrées">
-                  DESSERTS
-                  <div
-                    class="flex-row background-white card card-content content"
-                  >
-                    <div class="flex-column card-content--text">
-                      <a href="#">
-                        <div class="">
-                          <h3 class="bold-text">La palette du goût</h3>
-                        </div>
-                        <div class="">
-                          <p class="small-thin-text">Ménilmontant</p>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="prix">PRIX</div>
+                <div class="flex-column menu__list-toto">
+                  <div class="flex-column titre">
+                    <p class="menu__list-toto-titre">Desserts</p>
+                    <div class="soulignage"></div>
                   </div>
-                  <div
-                    class="flex-row background-white card card-content content"
-                  >
-                    <div class="flex-column card-content--text">
-                      <a href="#">
-                        <div class="">
-                          <h3 class="bold-text">La palette du goût</h3>
-                        </div>
-                        <div class="">
-                          <p class="small-thin-text">Ménilmontant</p>
-                        </div>
-                      </a>
+                  <div class="flex-column menu__list-cards">
+                    <div
+                      class="flex-row background-white card card-content content"
+                    >
+                      <div class="flex-column card-content--text">
+                        <a href="#">
+                          <div class="">
+                            <p class="menu__card-title">Paris-Brest</p>
+                          </div>
+                          <div class="">
+                            <p class="thin-text menu__card-subtitle">
+                              Revisité
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="prix">
+                        <p class="bold-text menu__card-price">18€</p>
+                      </div>
                     </div>
-                    <div class="prix">PRIX</div>
-                  </div>
-                  <div
-                    class="flex-row background-white card card-content content"
-                  >
-                    <div class="flex-column card-content--text">
-                      <a href="#">
-                        <div class="">
-                          <h3 class="bold-text">La palette du goût</h3>
-                        </div>
-                        <div class="">
-                          <p class="small-thin-text">Ménilmontant</p>
-                        </div>
-                      </a>
+                    <div
+                      class="flex-row background-white card card-content content"
+                    >
+                      <div class="flex-column card-content--text">
+                        <a href="#">
+                          <div class="">
+                            <p class="menu__card-title">
+                              Macaron au chocolat d'exception
+                            </p>
+                          </div>
+                          <div class="">
+                            <p class="thin-text menu__card-subtitle">
+                              Et glace à la vanille de Madagascar
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="prix">
+                        <p class="bold-text menu__card-price">22€</p>
+                      </div>
                     </div>
-                    <div class="prix">PRIX</div>
+                    <div
+                      class="flex-row background-white card card-content content"
+                    >
+                      <div class="flex-column card-content--text">
+                        <a href="#">
+                          <div class="">
+                            <p class="menu__card-title">Mousse au chocolat</p>
+                          </div>
+                          <div class="">
+                            <p class="thin-text menu__card-subtitle">
+                              Au piment d'Espelette et à la truffe noire
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="prix">
+                        <p class="bold-text menu__card-price">23€</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <a href="#restaurants" class="button text-white change">
-              <p>Commander</p>
-            </a>
+            <div class="flex-row center">
+              <a href="#restaurants" class="button text-white change">
+                <p>Commander</p>
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -87,6 +87,12 @@ a {
   font-family: "Roboto", sans-serif;
 }
 
+.shrikhand {
+  font-family: "Shrikhand", italic;
+  font-weight: 400;
+  font-size: 28px;
+}
+
 p {
   font-weight: 500;
   font-size: 16px;
@@ -175,6 +181,7 @@ p {
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   height: 50px;
   width: 186px;
+  text-align: center;
 }
 
 .button-new {
@@ -381,6 +388,16 @@ p {
   border-top-right-radius: 40px;
   border-top-left-radius: 40px;
 }
+.menu-position {
+  top: -30px;
+  position: relative;
+}
+.menu-title {
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 17px;
+  padding-right: 17px;
+}
 .menu__list {
   gap: 40px;
 }
@@ -390,6 +407,28 @@ p {
 .menu__list-cards {
   width: 100%;
   gap: 12px;
+}
+.menu__card-title {
+  font-size: 18px;
+}
+.menu__card-subtitle {
+  font-size: 15.04px;
+}
+.menu__card-price {
+  font-size: 15.04px;
+}
+
+.card-content {
+  align-items: flex-end;
+}
+
+.soulignage {
+  width: 40px;
+  border-top: 3px solid #99e2d0;
+}
+
+.titre {
+  gap: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
