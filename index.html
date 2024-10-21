@@ -24,9 +24,9 @@
       <div class="loader"></div>
     </div>
     <header class="flex-column">
-      <div class="flex-row center header__logo">
+      <section class="flex-row center header__logo">
         <h1 class="shrikhand logo-header">ohmyfood</h1>
-      </div>
+      </section>
       <div class="flex-row center background-grey2 header__searchbar">
         <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
         <p class="text">Paris, Belleville</p>
@@ -34,7 +34,7 @@
     </header>
     <main class="">
       <div class="placeholder">
-        <div class="flex-column center background-grey infos content">
+        <section class="flex-column center background-grey infos content">
           <div class="">
             <h2 class="bold-text">Réservez le menu qui vous convient</h2>
           </div>
@@ -46,13 +46,13 @@
           <a href="#restaurants" class="button text-white change">
             <p>Explorer nos restaurants</p>
           </a>
-        </div>
+        </section>
       </div>
       <div class="placeholder">
-        <div class="flex-column fonctionnement content">
-          <div class=""><p class="bold-text">Fonctionnement</p></div>
-          <div class="flex-column steps">
-            <div class="flex-row step-card">
+        <section class="flex-column fonctionnement content">
+          <h2 class="bold-text">Fonctionnement</h2>
+          <ul class="flex-column steps">
+            <li class="flex-row step-card">
               <div class="step__circle">
                 <p class="text-white">1</p>
               </div>
@@ -61,33 +61,33 @@
                 aria-hidden="true"
               ></i>
               <div class=""><p>Choisissez un restaurant</p></div>
-            </div>
-            <div class="flex-row step-card">
+            </li>
+            <li class="flex-row step-card">
               <div class="step__circle">
                 <p class="text-white">2</p>
               </div>
               <i class="fa-solid fa-list-ul" aria-hidden="true"></i>
               <div class=""><p>Composez votre menu</p></div>
-            </div>
-            <div class="flex-row step-card">
+            </li>
+            <li class="flex-row step-card">
               <div class="step__circle">
                 <p class="text-white">3</p>
               </div>
               <i class="fa-solid fa-store" aria-hidden="true"></i>
               <div class=""><p>Dégustez au restaurant</p></div>
-            </div>
-          </div>
-        </div>
+            </li>
+          </ul>
+        </section>
       </div>
       <div class="placeholder">
-        <div
+        <section
           id="restaurants"
           class="flex-column background-grey restaurants content"
         >
-          <div class=""><h2 class="bold-text">Restaurants</h2></div>
-          <div class="flex-column restaurants__list">
+          <h2 class="bold-text">Restaurants</h2>
+          <ul class="flex-column restaurants__list">
             <div class="placeholder">
-              <div
+              <article
                 class="flex-column background-white restaurants__list--card content"
               >
                 <div class="flex-column restaurants__list--image">
@@ -117,10 +117,10 @@
                     <i class="fa-regular fa-heart" aria-hidden="true"></i>
                   </div>
                 </div>
-              </div>
+              </article>
             </div>
             <div class="placeholder">
-              <div
+              <article
                 class="flex-column background-white restaurants__list--card content"
               >
                 <div class="flex-column restaurants__list--image">
@@ -151,10 +151,10 @@
                     <i class="fa-regular fa-heart" aria-hidden="true"></i>
                   </div>
                 </div>
-              </div>
+              </article>
             </div>
             <div class="placeholder">
-              <div
+              <article
                 class="flex-column background-white restaurants__list--card content"
               >
                 <div class="flex-column restaurants__list--image">
@@ -184,10 +184,10 @@
                     <i class="fa-regular fa-heart" aria-hidden="true"></i>
                   </div>
                 </div>
-              </div>
+              </article>
             </div>
             <div class="placeholder">
-              <div
+              <article
                 class="flex-column background-white restaurants__list--card content"
               >
                 <div class="flex-column restaurants__list--image">
@@ -217,15 +217,15 @@
                     <i class="fa-regular fa-heart" aria-hidden="true"></i>
                   </div>
                 </div>
-              </div>
+              </article>
             </div>
-          </div>
-        </div>
+          </ul>
+        </section>
       </div>
     </main>
     <footer class="flex-column background-dark footer text-white">
       <h2 class="shrikhand logo-footer">ohmyfood</h2>
-      <div class="flex-column footer--list">
+      <ul class="flex-column footer--list">
         <a href="#" class="flex-row footer--link">
           <i class="fa-solid fa-utensils" aria-hidden="true"></i>
           <p>Proposer un restaurant</p>
@@ -236,7 +236,7 @@
         </a>
         <a href="#" class="footer--link"><p>Mentions légales</p></a>
         <a href="#" class="footer--link"><p>Contact</p></a>
-      </div>
+      </ul>
     </footer>
   </body>
 </html>
