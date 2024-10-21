@@ -105,6 +105,16 @@ a {
   font-size: 28px;
 }
 
+.logo-header {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.logo-footer {
+  font-weight: 400;
+  font-size: 18px;
+}
+
 p {
   font-weight: 500;
   font-size: 16px;
@@ -158,10 +168,6 @@ p {
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 14px;
   z-index: 999;
-}
-.header__logo .logo {
-  height: 36px;
-  width: 197px;
 }
 
 .header__logo--menu {
@@ -269,7 +275,8 @@ p {
   position: absolute;
   background: -webkit-linear-gradient(#9356dc, #ff79da);
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  -webkit-background-clip: text;
+          background-clip: text;
   z-index: 999;
 }
 
@@ -312,7 +319,7 @@ p {
 .steps {
   gap: 24px;
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .steps {
     flex-direction: row;
     flex-wrap: wrap;
@@ -335,7 +342,7 @@ p {
   padding-left: 25px;
   position: relative;
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .step-card {
     min-width: 200px;
     width: 27%;
@@ -376,11 +383,12 @@ p {
 .restaurants__list--card img {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
   max-height: 174px;
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .restaurants__list--card {
     width: 100%;
   }
@@ -396,21 +404,19 @@ p {
 .restaurants__list--content--text {
   gap: 5px;
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .restaurants__list {
     row-gap: 50px;
-    column-gap: 100px;
+    -moz-column-gap: 100px;
+         column-gap: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
 
-.main-content {
-  height: 1337px;
-}
-
 .image-restaurant img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
   height: 275px;
 }
@@ -453,6 +459,7 @@ p {
 }
 
 .card-content {
+  overflow: hidden;
   align-items: flex-end;
 }
 
@@ -463,6 +470,4 @@ p {
 
 .titre {
   gap: 5px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=main.css.map */

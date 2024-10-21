@@ -1,7 +1,3 @@
-.main-content {
-  height: 1337px;
-}
-
 .image-restaurant {
   img {
     object-fit: cover;
@@ -49,6 +45,7 @@
 }
 
 .card-content {
+  overflow: hidden;
   align-items: flex-end;
 }
 

@@ -15,7 +15,7 @@
 
 .steps {
   gap: 24px;
-  @media (min-width: 1025px) {
+  @media (min-width: 1024px) {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
@@ -36,7 +36,7 @@
   padding-bottom: 20px;
   padding-left: 25px;
   position: relative;
-  @media (min-width: 1025px) {
+  @media (min-width: 1024px) {
     min-width: 200px;
     width: 27%;
   }
@@ -76,7 +76,7 @@
       width: 100%;
       max-height: 174px;
     }
-    @media (min-width: 1025px) {
+    @media (min-width: 1024px) {
       width: 100%;
     }
   }
@@ -91,7 +91,7 @@
       gap: 5px;
     }
   }
-  @media (min-width: 1025px) {
+  @media (min-width: 1024px) {
     row-gap: 50px;
     column-gap: 100px;
     display: grid;
