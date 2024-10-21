@@ -75,7 +75,7 @@
   transition: all 300ms ease-out;
 }
 .show-validation:hover .card-content--text {
-  width: 75%;
+  width: calc(100% - 85px);
 }
 .show-validation:hover .validation,
 .show-validation:hover .menu__card-price {
@@ -90,6 +90,10 @@ p,
 ul {
   margin: 0px;
   padding: 0px;
+}
+
+div {
+  box-sizing: border-box;
 }
 
 a {
@@ -341,6 +345,7 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 25px;
+  width: 90%;
   position: relative;
 }
 @media (min-width: 1024px) {
@@ -421,23 +426,47 @@ p {
   width: 100%;
   height: 275px;
 }
+@media (min-width: 1024px) {
+  .image-restaurant {
+    height: 383px;
+  }
+}
 
 .menu {
   gap: 40px;
   padding: 32px 13px 40px 13px;
-  border-top-right-radius: 40px;
-  border-top-left-radius: 40px;
+  border-top-right-radius: 32px;
+  border-top-left-radius: 32px;
+  max-width: 1055px;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .menu {
+    padding: 32px 210px 40px 210px;
+  }
 }
 .menu-position {
-  top: -40px;
-  margin-bottom: -40px;
+  top: -32px;
+  margin-bottom: -32px;
   position: relative;
 }
+@media (min-width: 1024px) {
+  .menu-position {
+    top: -51px;
+    margin-bottom: -51px;
+  }
+}
 .menu-title {
-  justify-content: space-between;
+  justify-content: center;
+  gap: 24px;
   align-items: center;
   padding-left: 17px;
   padding-right: 17px;
+}
+.menu-title h2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .menu__list {
   gap: 40px;
@@ -462,6 +491,9 @@ p {
 .card-content {
   overflow: hidden;
   align-items: flex-end;
+}
+.card-content--text {
+  max-width: calc(100% - 25px);
 }
 
 .soulignage {

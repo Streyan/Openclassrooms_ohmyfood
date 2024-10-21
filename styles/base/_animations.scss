@@ -47,7 +47,7 @@
   }
   &:hover {
     .card-content--text {
-      width: 75%;
+      width: calc(100% - 85px);
     }
     .validation,
     .menu__card-price {
