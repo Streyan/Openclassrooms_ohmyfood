@@ -7,9 +7,9 @@
 
 .fonctionnement {
   gap: 1em;
-  padding: 3em 1em;
+  padding: 4vh 8vw;
   @media (min-width: 768px) {
-    padding: 3em 10em;
+    padding: 4vh 10vw;
   }
 }
 
@@ -36,11 +36,10 @@
   padding-top: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  width: 90%;
+  width: 80vw;
   position: relative;
   @media (min-width: 1024px) {
-    min-width: 12em;
-    width: 27%;
+    width: 18vw;
   }
 }
 
