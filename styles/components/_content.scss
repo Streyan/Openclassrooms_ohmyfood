@@ -6,3 +6,18 @@
   transform: translateY(150%);
   animation: appear 1s 2s forwards;
 }
+
+.starter-section {
+  transform: translateY(150%);
+  animation: appear 1s 0s forwards;
+}
+
+.main-section {
+  transform: translateY(150%);
+  animation: appear 1s 0.5s forwards;
+}
+
+.dessert-section {
+  transform: translateY(150%);
+  animation: appear 1s 1s forwards;
+}

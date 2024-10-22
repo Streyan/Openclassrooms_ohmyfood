@@ -269,6 +269,21 @@ p {
   animation: appear 1s 2s forwards;
 }
 
+.starter-section {
+  transform: translateY(150%);
+  animation: appear 1s 0s forwards;
+}
+
+.main-section {
+  transform: translateY(150%);
+  animation: appear 1s 0.5s forwards;
+}
+
+.dessert-section {
+  transform: translateY(150%);
+  animation: appear 1s 1s forwards;
+}
+
 .heart {
   position: relative;
 }
@@ -310,23 +325,24 @@ p {
 
 .infos {
   overflow: hidden;
-  gap: 18px;
-  padding: 30px;
+  gap: 1em;
+  padding: 1.9em;
   text-align: center;
 }
 
 .fonctionnement {
-  gap: 26px;
-  padding: 40px 20px;
+  gap: 1em;
+  padding: 3em 1em;
 }
 @media (min-width: 768px) {
   .fonctionnement {
-    padding: 50px 180px;
+    padding: 3em 10em;
   }
 }
 
 .steps {
-  gap: 24px;
+  padding-left: 1em;
+  gap: 1.5em;
 }
 @media (min-width: 1024px) {
   .steps {
@@ -344,17 +360,17 @@ p {
   border: 0;
   border-radius: 20px;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
-  gap: 20px;
+  gap: 1em;
   justify-content: flex-start;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 25px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
   width: 90%;
   position: relative;
 }
 @media (min-width: 1024px) {
   .step-card {
-    min-width: 200px;
+    min-width: 12em;
     width: 27%;
   }
 }
@@ -364,12 +380,12 @@ p {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 18px;
-  left: -12px;
+  top: 1em;
+  left: -1em;
   background-color: #9356dc;
   border-radius: 50%;
-  height: 24px;
-  width: 24px;
+  height: 1.5em;
+  width: 1.5em;
 }
 
 .restaurants {
@@ -428,36 +444,36 @@ p {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-  height: 275px;
+  height: 17em;
 }
 @media (min-width: 1024px) {
   .image-restaurant {
-    height: 383px;
+    height: 24em;
   }
 }
 
 .menu {
-  gap: 40px;
-  padding: 32px 13px 40px 13px;
-  border-top-right-radius: 32px;
-  border-top-left-radius: 32px;
+  gap: 2.5em;
+  padding: 2em 0.8em;
+  border-top-right-radius: 2.5em;
+  border-top-left-radius: 2.5em;
   max-width: 1055px;
   width: 100%;
 }
 @media (min-width: 1024px) {
   .menu {
-    padding: 32px 210px 40px 210px;
+    padding: 2em 13em;
   }
 }
 .menu-position {
-  top: -32px;
-  margin-bottom: -32px;
+  top: -2em;
+  margin-bottom: -2em;
   position: relative;
 }
 @media (min-width: 1024px) {
   .menu-position {
-    top: -51px;
-    margin-bottom: -51px;
+    top: -3em;
+    margin-bottom: -3em;
   }
 }
 .menu-title {
