@@ -49,8 +49,8 @@
         </section>
       </div>
       <div class="placeholder">
-        <section class="flex-column fonctionnement content">
-          <h2 class="bold-text">Fonctionnement</h2>
+        <div class="flex-column fonctionnement content">
+          <p class="bold-text">Fonctionnement</p>
           <ul class="flex-column steps">
             <li class="flex-row step-card">
               <div class="step__circle">
@@ -77,7 +77,7 @@
               <div class=""><p>Dégustez au restaurant</p></div>
             </li>
           </ul>
-        </section>
+        </div>
       </div>
       <div class="placeholder">
         <section
@@ -86,7 +86,7 @@
         >
           <h2 class="bold-text">Restaurants</h2>
           <ul class="flex-column restaurants__list">
-            <div class="placeholder">
+            <li class="placeholder">
               <article
                 class="flex-column background-white restaurants__list--card content"
               >
@@ -118,8 +118,8 @@
                   </div>
                 </div>
               </article>
-            </div>
-            <div class="placeholder">
+            </li>
+            <li class="placeholder">
               <article
                 class="flex-column background-white restaurants__list--card content"
               >
@@ -152,8 +152,8 @@
                   </div>
                 </div>
               </article>
-            </div>
-            <div class="placeholder">
+            </li>
+            <li class="placeholder">
               <article
                 class="flex-column background-white restaurants__list--card content"
               >
@@ -185,8 +185,8 @@
                   </div>
                 </div>
               </article>
-            </div>
-            <div class="placeholder">
+            </li>
+            <li class="placeholder">
               <article
                 class="flex-column background-white restaurants__list--card content"
               >
@@ -218,7 +218,7 @@
                   </div>
                 </div>
               </article>
-            </div>
+            </li>
           </ul>
         </section>
       </div>
@@ -226,16 +226,26 @@
     <footer class="flex-column background-dark footer text-white">
       <h2 class="shrikhand logo-footer">ohmyfood</h2>
       <ul class="flex-column footer--list">
-        <a href="#" class="flex-row footer--link">
-          <i class="fa-solid fa-utensils" aria-hidden="true"></i>
-          <p>Proposer un restaurant</p>
-        </a>
-        <a href="#" class="flex-row footer--link">
-          <i class="fa-solid fa-handshake-angle" aria-hidden="true"></i>
-          <p>Devenir partenaire</p>
-        </a>
-        <a href="#" class="footer--link"><p>Mentions légales</p></a>
-        <a href="#" class="footer--link"><p>Contact</p></a>
+        <li>
+          <a href="#" class="flex-row footer--link">
+            <i class="fa-solid fa-utensils" aria-hidden="true"></i>
+            <p>Proposer un restaurant</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex-row footer--link">
+            <i class="fa-solid fa-handshake-angle" aria-hidden="true"></i>
+            <p>Devenir partenaire</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="footer--link"><p>Mentions légales</p></a>
+        </li>
+        <li>
+          <a href="mailto:contact@ohmyfood.com" class="footer--link"
+            ><p>Contact</p></a
+          >
+        </li>
       </ul>
     </footer>
   </body>
