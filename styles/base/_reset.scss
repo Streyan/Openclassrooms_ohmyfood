@@ -1,4 +1,5 @@
 body,
+div,
 h1,
 h2,
 h3,
@@ -19,4 +20,13 @@ div {
 a {
   color: unset;
   text-decoration-line: none;
+}
+
+.main-container {
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
 }

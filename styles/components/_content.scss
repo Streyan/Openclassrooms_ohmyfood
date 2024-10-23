@@ -1,8 +1,11 @@
 .placeholder {
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.content {
+.appear--content {
   transform: translateY(150%);
   animation: appear 1s 2s forwards;
 }
