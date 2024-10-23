@@ -24,9 +24,11 @@ a {
 
 .main-container {
   width: 100%;
+  flex: 1;
 }
 
 body {
   display: flex;
   justify-content: center;
+  min-height: 100dvh;
 }

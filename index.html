@@ -19,21 +19,21 @@
     />
     <link rel="stylesheet" href="./assets/styles/main.css" />
   </head>
-  <body>
-    <div class="flex-column main-container">
+  <body class="flex-column">
+    <div class="flex-column flex main-container">
       <div class="load">
         <div class="loader"></div>
       </div>
       <header class="flex-column">
         <section class="flex-row center header__logo">
-          <h1 class="shrikhand logo-header">ohmyfood</h1>
+          <a href="#"> <h1 class="shrikhand logo-header">ohmyfood</h1></a>
         </section>
         <div class="flex-row center background-grey2 header__searchbar">
           <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
           <p class="text">Paris, Belleville</p>
         </div>
       </header>
-      <main class="">
+      <main class="flex-column flex">
         <div class="placeholder">
           <section class="background-grey background appear--content">
             <div class="flex-column center content infos">
@@ -85,10 +85,10 @@
             </div>
           </div>
         </div>
-        <div class="placeholder">
+        <div class="placeholder flex">
           <section
             id="restaurants"
-            class="background background-grey appear--content"
+            class="background background-grey flex appear--content"
           >
             <div class="flex-column restaurants content">
               <h2 class="bold-text">Restaurants</h2>

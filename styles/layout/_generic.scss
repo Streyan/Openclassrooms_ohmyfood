@@ -3,3 +3,13 @@
   max-width: 1440px;
   box-sizing: border-box;
 }
+
+.main-container {
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100dvh;
+}
