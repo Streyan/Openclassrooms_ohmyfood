@@ -52,6 +52,13 @@
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
 }
 
+.zoom img {
+  transition: all 0.5s;
+}
+.zoom:hover img {
+  transform: scale(1.5);
+}
+
 .color .fa-heart-pink {
   transition: all 300ms ease-out;
 }
@@ -114,17 +121,6 @@ div {
 a {
   color: unset;
   text-decoration-line: none;
-}
-
-.main-container {
-  width: 100%;
-  flex: 1;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  min-height: 100dvh;
 }
 
 * {
@@ -251,6 +247,7 @@ body {
 }
 
 .button-new {
+  z-index: 999;
   align-content: center;
   text-align: center;
   background-color: #99e2d0;
@@ -299,7 +296,7 @@ body {
   background-color: #99e2d0;
 }
 
-.placeholder {
+.appear--container {
   overflow: hidden;
   display: flex;
   flex-direction: column;

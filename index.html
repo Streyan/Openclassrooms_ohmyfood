@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OhMyFood</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css?family=Shrikhand"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./assets/styles/main.css" />
+      referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./assets/styles/main.css">
   </head>
   <body class="flex-column">
     <div class="flex-column flex main-container">
@@ -34,13 +32,13 @@
         </div>
       </header>
       <main class="flex-column flex">
-        <div class="placeholder">
+        <div class="appear--container">
           <section class="background-grey background appear--content">
             <div class="flex-column center content infos">
-              <div class="">
+              <div>
                 <h2 class="bold-text">Réservez le menu qui vous convient</h2>
               </div>
-              <div class="">
+              <div>
                 <h3 class="thin-text">
                   Découvrez des restaurants d’exception, sélectionnés par nos
                   soins.
@@ -52,7 +50,7 @@
             </div>
           </section>
         </div>
-        <div class="placeholder">
+        <div class="appear--container">
           <div class="background appear--content">
             <div class="flex-column fonctionnement content">
               <p class="bold-text">Fonctionnement</p>
@@ -85,7 +83,7 @@
             </div>
           </div>
         </div>
-        <div class="placeholder flex">
+        <div class="appear--container flex">
           <section
             id="restaurants"
             class="background background-grey flex appear--content"
@@ -93,25 +91,28 @@
             <div class="flex-column restaurants content">
               <h2 class="bold-text">Restaurants</h2>
               <ul class="restaurants__list">
-                <li class="placeholder">
+                <li class="appear--container">
                   <article
-                    class="flex-column background-white restaurants__list--card appear--content"
+                    class="flex-column background-white restaurants__list--card appear--content zoom"
                   >
                     <div class="flex-column restaurants__list--image">
                       <div class="button-new"><p>Nouveau</p></div>
-                      <a href="./restaurants/laPaletteDuGout.html">
+                      <a
+                        href="./restaurants/laPaletteDuGout.html"
+                        class="appear--container"
+                      >
                         <img
                           alt="Image d'un plat du restaurant La palette du goût"
                           src="./assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                      /></a>
+                      ></a>
                     </div>
                     <div class="flex-row restaurants__list--content">
                       <div class="flex-column restaurants__list--content--text">
                         <a href="./restaurants/laPaletteDuGout.html">
-                          <div class="">
+                          <div>
                             <h3 class="bold-text">La palette du goût</h3>
                           </div>
-                          <div class="">
+                          <div>
                             <p class="small-thin-text">Ménilmontant</p>
                           </div>
                         </a>
@@ -126,26 +127,27 @@
                     </div>
                   </article>
                 </li>
-                <li class="placeholder">
+                <li class="appear--container">
                   <article
-                    class="flex-column background-white restaurants__list--card appear--content"
+                    class="flex-column background-white restaurants__list--card appear--content zoom"
                   >
                     <div class="flex-column restaurants__list--image">
                       <div class="button-new"><p>Nouveau</p></div>
-                      <a href="#"
+                      <a
+                        href="./restaurants/laNoteEnchantee.html"
+                        class="appear--container"
                         ><img
                           alt="Image d'un plat du restaurant La note enchantée"
                           src="./assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
-                          class=""
-                      /></a>
+                      ></a>
                     </div>
                     <div class="flex-row restaurants__list--content">
                       <div class="flex-column restaurants__list--content--text">
-                        <a href="#">
-                          <div class="">
+                        <a href="./restaurants/laNoteEnchantee.html">
+                          <div>
                             <h3 class="bold-text">La note enchantée</h3>
                           </div>
-                          <div class="">
+                          <div>
                             <p class="small-thin-text">Charonne</p>
                           </div></a
                         >
@@ -160,25 +162,27 @@
                     </div>
                   </article>
                 </li>
-                <li class="placeholder">
+                <li class="appear--container">
                   <article
-                    class="flex-column background-white restaurants__list--card appear--content"
+                    class="flex-column background-white restaurants__list--card appear--content zoom"
                   >
                     <div class="flex-column restaurants__list--image">
-                      <a href="#">
+                      <a
+                        href="./restaurants/aLaFrançaise.html"
+                        class="appear--container"
+                      >
                         <img
                           alt="Image d'un plat du restaurant À la française"
                           src="./assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
-                          class=""
-                      /></a>
+                      ></a>
                     </div>
                     <div class="flex-row restaurants__list--content">
                       <div class="flex-column restaurants__list--content--text">
-                        <a href="#">
-                          <div class="">
+                        <a href="./restaurants/aLaFrançaise.html">
+                          <div>
                             <h3 class="bold-text">À la française</h3>
                           </div>
-                          <div class="">
+                          <div>
                             <p class="small-thin-text">Cité Rouge</p>
                           </div></a
                         >
@@ -193,25 +197,27 @@
                     </div>
                   </article>
                 </li>
-                <li class="placeholder">
+                <li class="appear--container">
                   <article
-                    class="flex-column background-white restaurants__list--card appear--content"
+                    class="flex-column background-white restaurants__list--card appear--content zoom"
                   >
                     <div class="flex-column restaurants__list--image">
-                      <a href="#">
+                      <a
+                        href="./restaurants/leDeliceDesSens.html"
+                        class="appear--container"
+                      >
                         <img
                           alt="Image d'un plat du restaurant Le délice des sens"
                           src="./assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
-                          class=""
-                      /></a>
+                      ></a>
                     </div>
                     <div class="flex-row restaurants__list--content">
                       <div class="flex-column restaurants__list--content--text">
-                        <a href="#">
-                          <div class="">
+                        <a href="./restaurants/leDeliceDesSens.html">
+                          <div>
                             <h3 class="bold-text">Le délice des sens</h3>
                           </div>
-                          <div class="">
+                          <div>
                             <p class="small-thin-text">Folie-Méricourt</p>
                           </div></a
                         >
